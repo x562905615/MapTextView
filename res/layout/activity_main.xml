@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地图功能测试-功能选项" />
+
+    <Button
+        android:id="@+id/locationovely_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位图层展示" />
+
+    <Button
+        android:id="@+id/geocoder_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地理位置坐标转换" />
+
+</LinearLayout>
